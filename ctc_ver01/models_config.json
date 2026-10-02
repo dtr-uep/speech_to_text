@@ -1,0 +1,222 @@
+{
+    "0": {
+        "model_type": "simple_rnn",
+        "model_no": 0,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "1": {
+        "model_type": "deep_rnn",
+        "model_no": 1,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "2": {
+        "model_type": "simple_gru",
+        "model_no": 2,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "3": {
+        "model_type": "simple_lstm",
+        "model_no": 3,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "4": {
+        "model_type": "bigru",
+        "model_no": 4,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "5": {
+        "model_type": "bilstm",
+        "model_no": 5,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "6": {
+        "model_type": "deep_bilstm",
+        "model_no": 6,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "7": {
+        "model_type": "bilstm_projection",
+        "model_no": 7,
+        "model_parameters": {
+            "hidden_dim": 64,
+            "projection_dim": 32
+        }
+    },
+
+    "8": {
+        "model_type": "cnn_bilstm",
+        "model_no": 8,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+
+    "9": {
+        "model_type": "simple_rnn",
+        "model_no": 9,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "10": {
+        "model_type": "deep_rnn",
+        "model_no": 10,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "11": {
+        "model_type": "simple_gru",
+        "model_no": 11,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "12": {
+        "model_type": "simple_lstm",
+        "model_no": 12,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "13": {
+        "model_type": "bigru",
+        "model_no": 13,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "14": {
+        "model_type": "bilstm",
+        "model_no": 14,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "15": {
+        "model_type": "deep_bilstm",
+        "model_no": 15,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "16": {
+        "model_type": "bilstm_projection",
+        "model_no": 16,
+        "model_parameters": {
+            "hidden_dim": 128,
+            "projection_dim": 64
+        }
+    },
+
+    "17": {
+        "model_type": "cnn_bilstm",
+        "model_no": 17,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+
+    "18": {
+        "model_type": "simple_rnn",
+        "model_no": 18,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "19": {
+        "model_type": "deep_rnn",
+        "model_no": 19,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "20": {
+        "model_type": "simple_gru",
+        "model_no": 20,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "21": {
+        "model_type": "simple_lstm",
+        "model_no": 21,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "22": {
+        "model_type": "bigru",
+        "model_no": 22,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "23": {
+        "model_type": "bilstm",
+        "model_no": 23,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "24": {
+        "model_type": "deep_bilstm",
+        "model_no": 24,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "25": {
+        "model_type": "bilstm_projection",
+        "model_no": 25,
+        "model_parameters": {
+            "hidden_dim": 256,
+            "projection_dim": 128
+        }
+    },
+
+    "26": {
+        "model_type": "cnn_bilstm",
+        "model_no": 26,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    }
+}

@@ -1,0 +1,258 @@
+{
+    "0": {
+        "model_type": "encoder_decoder_rnn",
+        "model_no": 0,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "1": {
+        "model_type": "deep_encoder_decoder_rnn",
+        "model_no": 1,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "2": {
+        "model_type": "encoder_decoder_gru",
+        "model_no": 2,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "3": {
+        "model_type": "encoder_decoder_lstm",
+        "model_no": 3,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "4": {
+        "model_type": "bi_encoder_gru_decoder",
+        "model_no": 4,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "5": {
+        "model_type": "bi_encoder_lstm_decoder",
+        "model_no": 5,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "6": {
+        "model_type": "deep_bi_encoder_lstm_decoder",
+        "model_no": 6,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "7": {
+        "model_type": "bi_encoder_lstm_projection",
+        "model_no": 7,
+        "model_parameters": {
+            "hidden_dim": 64,
+            "projection_dim": 32
+        }
+    },
+
+    "8": {
+        "model_type": "cnn_bi_encoder_lstm_decoder",
+        "model_no": 8,
+        "model_parameters": {
+            "hidden_dim": 64
+        }
+    },
+
+    "9": {
+        "model_type": "transformer_seq2seq",
+        "model_no": 9,
+        "model_parameters": {
+            "hidden_dim": 64,
+            "num_heads": 4,
+            "num_encoder_layers": 2,
+            "num_decoder_layers": 2,
+            "ff_dim": 256
+        }
+    },
+
+
+    "10": {
+        "model_type": "encoder_decoder_rnn",
+        "model_no": 10,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "11": {
+        "model_type": "deep_encoder_decoder_rnn",
+        "model_no": 11,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "12": {
+        "model_type": "encoder_decoder_gru",
+        "model_no": 12,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "13": {
+        "model_type": "encoder_decoder_lstm",
+        "model_no": 13,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "14": {
+        "model_type": "bi_encoder_gru_decoder",
+        "model_no": 14,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "15": {
+        "model_type": "bi_encoder_lstm_decoder",
+        "model_no": 15,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "16": {
+        "model_type": "deep_bi_encoder_lstm_decoder",
+        "model_no": 16,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "17": {
+        "model_type": "bi_encoder_lstm_projection",
+        "model_no": 17,
+        "model_parameters": {
+            "hidden_dim": 128,
+            "projection_dim": 64
+        }
+    },
+
+    "18": {
+        "model_type": "cnn_bi_encoder_lstm_decoder",
+        "model_no": 18,
+        "model_parameters": {
+            "hidden_dim": 128
+        }
+    },
+
+    "19": {
+        "model_type": "transformer_seq2seq",
+        "model_no": 19,
+        "model_parameters": {
+            "hidden_dim": 128,
+            "num_heads": 8,
+            "num_encoder_layers": 2,
+            "num_decoder_layers": 2,
+            "ff_dim": 512
+        }
+    },
+
+
+    "20": {
+        "model_type": "encoder_decoder_rnn",
+        "model_no": 20,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "21": {
+        "model_type": "deep_encoder_decoder_rnn",
+        "model_no": 21,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "22": {
+        "model_type": "encoder_decoder_gru",
+        "model_no": 22,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "23": {
+        "model_type": "encoder_decoder_lstm",
+        "model_no": 23,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "24": {
+        "model_type": "bi_encoder_gru_decoder",
+        "model_no": 24,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "25": {
+        "model_type": "bi_encoder_lstm_decoder",
+        "model_no": 25,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "26": {
+        "model_type": "deep_bi_encoder_lstm_decoder",
+        "model_no": 26,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "27": {
+        "model_type": "bi_encoder_lstm_projection",
+        "model_no": 27,
+        "model_parameters": {
+            "hidden_dim": 256,
+            "projection_dim": 128
+        }
+    },
+
+    "28": {
+        "model_type": "cnn_bi_encoder_lstm_decoder",
+        "model_no": 28,
+        "model_parameters": {
+            "hidden_dim": 256
+        }
+    },
+
+    "29": {
+        "model_type": "transformer_seq2seq",
+        "model_no": 29,
+        "model_parameters": {
+            "hidden_dim": 256,
+            "num_heads": 8,
+            "num_encoder_layers": 2,
+            "num_decoder_layers": 2,
+            "ff_dim": 1024
+        }
+    }
+}
