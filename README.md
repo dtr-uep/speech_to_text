@@ -79,23 +79,38 @@ The experiment uses the clean configuration, with:
 
 Final test results:
 
-**Train — 84,849 samples**
-WER: Mean 17.6% | Median 0.0% | Std 38.1%
-WER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 100.0%
-CER: Mean 17.5% | Median 0.0% | Std 41.9%
-CER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 400.0%
+**Train — 28,539 samples**
 
-**Validation — 9,981 samples**
-WER: Mean 18.2% | Median 0.0% | Std 38.6%
-WER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 100.0%
-CER: Mean 18.4% | Median 0.0% | Std 43.6%
-CER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 400.0%
+\- WER: Mean 36.9% | Median 36.6% | Std 14.5%
 
-**Test — 11,005 samples**
-WER: Mean 19.7% | Median 0.0% | Std 39.8%
-WER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 100.0%
-CER: Mean 19.6% | Median 0.0% | Std 44.1%
-CER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 400.0%
+\- WER P25/P75: 27.3% / 46.2% | Min/Max: 0.0% / 117.5%
+
+\- CER: Mean 11.3% | Median 10.6% | Std 5.5%
+
+\- CER P25/P75: 7.5% / 14.4% | Min/Max: 0.0% / 50.0%
+
+
+**Validation — 2,703 samples**
+
+\- WER: Mean 57.9% | Median 57.1% | Std 19.9%
+
+\- WER P25/P75: 45.5% / 70.0% | Min/Max: 0.0% / 200.0%
+
+\- CER: Mean 22.0% | Median 20.7% | Std 9.9%
+
+\- CER P25/P75: 15.3% / 27.5% | Min/Max: 0.0% / 77.3%
+
+
+**Test — 2,620 samples**
+
+\- WER: Mean 56.5% | Median 55.6% | Std 20.3%
+
+\- WER P25/P75: 43.3% / 68.5% | Min/Max: 0.0% / 200.0%
+
+\- CER: Mean 21.6% | Median 20.4% | Std 9.8%
+
+\- CER P25/P75: 14.8% / 26.9% | Min/Max: 0.0% / 71.4%
+
 
 
 \### 2. Encoder-Decoder Speech Recognition (`enc\_dec01/`)
