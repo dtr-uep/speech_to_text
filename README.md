@@ -9,6 +9,9 @@ covering acoustic feature extraction, CTC-based recognition, sequence-to-sequenc
 encoder-decoder models, decoding algorithms, and architecture comparison.
 
 
+Model demo is at: https://datsblog.xyz/interactives/speech-to-text
+
+
 
 \## Project Scope
 
@@ -76,16 +79,26 @@ The experiment uses the clean configuration, with:
 
 Final test results:
 
-\- Mean WER: 101.3%
+**Train — 84,849 samples**
+WER: Mean 17.6% | Median 0.0% | Std 38.1%
+WER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 100.0%
+CER: Mean 17.5% | Median 0.0% | Std 41.9%
+CER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 400.0%
 
-\- Mean CER: 86.8%
-Testing CTC algorithm, capture some sound representations of character combinations, suggesting phonemes prediction modelling.
+**Validation — 9,981 samples**
+WER: Mean 18.2% | Median 0.0% | Std 38.6%
+WER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 100.0%
+CER: Mean 18.4% | Median 0.0% | Std 43.6%
+CER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 400.0%
 
+**Test — 11,005 samples**
+WER: Mean 19.7% | Median 0.0% | Std 39.8%
+WER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 100.0%
+CER: Mean 19.6% | Median 0.0% | Std 44.1%
+CER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 400.0%
 
 
 \### 2. Encoder-Decoder Speech Recognition (`enc\_dec01/`)
-
-
 
 Pipeline:
 
@@ -143,9 +156,36 @@ handling and designs.
 
 Final test results:
 
-\- Mean WER: 19.7%
+**Train — 84,849 samples**
 
-\- Mean CER: 19.6%
+\- WER: Mean 17.6% | Median 0.0% | Std 38.1%
+
+\- WER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 100.0%
+
+\- CER: Mean 17.5% | Median 0.0% | Std 41.9%
+
+\- CER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 400.0%
+
+
+**Validation — 9,981 samples**
+
+\- WER: Mean 18.2% | Median 0.0% | Std 38.6%
+
+\- WER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 100.0%
+
+\- CER: Mean 18.4% | Median 0.0% | Std 43.6%
+
+\- CER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 400.0%
+
+
+**Test — 11,005 samples**
+\- WER: Mean 19.7% | Median 0.0% | Std 39.8%
+
+\- WER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 100.0%
+
+\- CER: Mean 19.6% | Median 0.0% | Std 44.1%
+
+\- CER P25/P75: 0.0% / 0.0% | Min/Max: 0.0% / 400.0%
 
 
 
